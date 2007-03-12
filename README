@@ -1,0 +1,85 @@
+xdg-user-dirs
+------------------------------------------
+xdg-user-dirs is a tool to help manage 'well known' user directories 
+like the desktop folder and the music folder. It also handles 
+localization (i.e. translation) of the filenames.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libiconv2-1.11-1
+  libintl8-0.15-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.freedesktop.org/wiki/Software/xdg-user-dirs
+
+Canonical download:
+  http://user-dirs.freedesktop.org/releases/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xdg-user-dirs-0.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xdg-user-dirs-0.4-X.cygport all
+
+This will create:
+  /usr/src/xdg-user-dirs-0.4-X-src.tar.bz2
+  /usr/src/xdg-user-dirs-0.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/xdg/user-dirs.conf
+  /etc/xdg/user-dirs.defaults
+  /usr/bin/xdg-user-dir
+  /usr/bin/xdg-user-dirs-update.exe
+  /usr/share/doc/Cygwin/xdg-user-dirs-0.4.README
+  /usr/share/doc/xdg-user-dirs-0.4/ABOUT-NLS
+  /usr/share/doc/xdg-user-dirs-0.4/AUTHORS
+  /usr/share/doc/xdg-user-dirs-0.4/COPYING
+  /usr/share/doc/xdg-user-dirs-0.4/ChangeLog
+  /usr/share/doc/xdg-user-dirs-0.4/NEWS
+  /usr/share/doc/xdg-user-dirs-0.4/README
+  /usr/share/locale/ar/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/ca/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/da/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/de/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/fr/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/hu/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/it/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/mk/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/nl/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/pa/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/pt/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/sr/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/sr@Latn/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/sv/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/zh_HK/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/xdg-user-dirs.mo
+
+------------------
+
+Port Notes:
+
+----- version 0.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

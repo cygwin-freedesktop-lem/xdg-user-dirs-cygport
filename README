@@ -31,15 +31,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xdg-user-dirs-0.4-X-src.tar.bz2
+  unpack xdg-user-dirs-0.8-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xdg-user-dirs-0.4-X.cygport all
+  cygport ./xdg-user-dirs-0.8-X.cygport all
 
 This will create:
-  /usr/src/xdg-user-dirs-0.4-X-src.tar.bz2
-  /usr/src/xdg-user-dirs-0.4-X.tar.bz2
+  /usr/src/xdg-user-dirs-0.8-X-src.tar.bz2
+  /usr/src/xdg-user-dirs-0.8-X.tar.bz2
 
 -------------------------------------------
 
@@ -49,33 +49,43 @@ Files included in the binary package:
   /etc/xdg/user-dirs.defaults
   /usr/bin/xdg-user-dir
   /usr/bin/xdg-user-dirs-update.exe
-  /usr/share/doc/Cygwin/xdg-user-dirs-0.4.README
-  /usr/share/doc/xdg-user-dirs-0.4/ABOUT-NLS
-  /usr/share/doc/xdg-user-dirs-0.4/AUTHORS
-  /usr/share/doc/xdg-user-dirs-0.4/COPYING
-  /usr/share/doc/xdg-user-dirs-0.4/ChangeLog
-  /usr/share/doc/xdg-user-dirs-0.4/NEWS
-  /usr/share/doc/xdg-user-dirs-0.4/README
+  /usr/share/doc/Cygwin/xdg-user-dirs-0.8.README
+  /usr/share/doc/xdg-user-dirs-0.8/ABOUT-NLS
+  /usr/share/doc/xdg-user-dirs-0.8/AUTHORS
+  /usr/share/doc/xdg-user-dirs-0.8/COPYING
+  /usr/share/doc/xdg-user-dirs-0.8/ChangeLog
+  /usr/share/doc/xdg-user-dirs-0.8/NEWS
+  /usr/share/doc/xdg-user-dirs-0.8/README
   /usr/share/locale/ar/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/ca/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/da/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/de/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/el/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/es/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/et/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/fi/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/fr/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/hu/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/it/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/lt/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/mk/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/nl/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/pa/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/pl/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/pt/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/sr/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/sr@Latn/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/sv/LC_MESSAGES/xdg-user-dirs.mo
+  /usr/share/locale/tr/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/zh_HK/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/xdg-user-dirs.mo
 
 ------------------
 
 Port Notes:
+
+----- version 0.8-1 -----
+Version bump.
 
 ----- version 0.4-1 -----
 Initial release for Cygwin.

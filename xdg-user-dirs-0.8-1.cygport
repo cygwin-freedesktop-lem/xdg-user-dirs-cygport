@@ -1,0 +1,5 @@
+DESCRIPTION="XDG user directory tool"
+HOMEPAGE="http://www.freedesktop.org/wiki/Software/xdg-user-dirs"
+SRC_URI="http://user-dirs.freedesktop.org/releases/${P}.tar.gz"
+
+DIFF_EXCLUDES="m4 po config.rpath"

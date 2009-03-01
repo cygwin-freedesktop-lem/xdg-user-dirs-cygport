@@ -1,5 +1,11 @@
 DESCRIPTION="XDG user directory tool"
 HOMEPAGE="http://www.freedesktop.org/wiki/Software/xdg-user-dirs"
 SRC_URI="http://user-dirs.freedesktop.org/releases/${P}.tar.gz"
+PATCH_URI="0.10-autoconf.patch"
 
-DIFF_EXCLUDES="m4 po config.rpath"
+src_install() {
+	cd ${B}
+	cyginstall
+
+	make_etc_defaults /etc/xdg/user-dirs.{conf,defaults}
+}

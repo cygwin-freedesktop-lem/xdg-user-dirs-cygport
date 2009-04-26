@@ -5,18 +5,19 @@ like the desktop folder and the music folder. It also handles
 localization (i.e. translation) of the filenames.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libiconv2-1.12-1
-  libintl8-0.17-2
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
+  libiconv2-1.12-10
+  libintl8-0.17-10
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.9-1.9.6-3
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
   make-3.81-2
   sed-4.1.5-2
 
@@ -49,12 +50,11 @@ Files included in the binary package:
   /etc/preremove/xdg-user-dirs.sh
   /usr/bin/xdg-user-dir
   /usr/bin/xdg-user-dirs-update.exe
-  /usr/share/doc/xdg-user-dirs-0.10/ABOUT-NLS
-  /usr/share/doc/xdg-user-dirs-0.10/AUTHORS
-  /usr/share/doc/xdg-user-dirs-0.10/COPYING
-  /usr/share/doc/xdg-user-dirs-0.10/ChangeLog
-  /usr/share/doc/xdg-user-dirs-0.10/NEWS
-  /usr/share/doc/xdg-user-dirs-0.10/README
+  /usr/share/doc/xdg-user-dirs/AUTHORS
+  /usr/share/doc/xdg-user-dirs/COPYING
+  /usr/share/doc/xdg-user-dirs/ChangeLog
+  /usr/share/doc/xdg-user-dirs/NEWS
+  /usr/share/doc/xdg-user-dirs/README
   /usr/share/locale/af/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/ar/LC_MESSAGES/xdg-user-dirs.mo
   /usr/share/locale/be@latin/LC_MESSAGES/xdg-user-dirs.mo
@@ -100,14 +100,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.10-1 -----
-Version bump.
-
------ version 0.8-1 -----
-Version bump.
-
------ version 0.4-1 -----
-Initial release for Cygwin.
+----- version 0.10-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

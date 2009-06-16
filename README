@@ -5,7 +5,7 @@ like the desktop folder and the music folder. It also handles
 localization (i.e. translation) of the filenames.
 
 Runtime requirements:
-  cygwin-1.7.0-45
+  cygwin-1.7.0-49
   libgcc1-4.3.2-2
   libiconv2-1.12-10
   libintl8-0.17-10
@@ -50,6 +50,7 @@ Files included in the binary package:
   /etc/preremove/xdg-user-dirs.sh
   /usr/bin/xdg-user-dir
   /usr/bin/xdg-user-dirs-update.exe
+  /usr/bin/xdg-user-dirs-update.exe.manifest
   /usr/share/doc/xdg-user-dirs/AUTHORS
   /usr/share/doc/xdg-user-dirs/COPYING
   /usr/share/doc/xdg-user-dirs/ChangeLog
@@ -99,6 +100,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.10-11 -----
+Rebuilt to add UAC .manifest file.
 
 ----- version 0.10-10 -----
 Initial release for Cygwin 1.7.

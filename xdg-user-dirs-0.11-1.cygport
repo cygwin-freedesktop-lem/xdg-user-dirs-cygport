@@ -1,7 +1,6 @@
 DESCRIPTION="XDG user directory tool"
 HOMEPAGE="http://www.freedesktop.org/wiki/Software/xdg-user-dirs"
 SRC_URI="http://user-dirs.freedesktop.org/releases/${P}.tar.gz"
-PATCH_URI="0.10-autoconf.patch"
 
 src_install() {
 	cd ${B}

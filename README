@@ -5,19 +5,19 @@ like the desktop folder and the music folder. It also handles
 localization (i.e. translation) of the filenames.
 
 Runtime requirements:
-  cygwin-1.7.0-49
-  libgcc1-4.3.2-2
-  libiconv2-1.12-10
-  libintl8-0.17-10
+  cygwin-1.7.0-62
+  libgcc1-4.3.4-1
+  libiconv2-1.13-10
+  libintl8-0.17-11
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
-  automake1.9-1.9.6-10
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
+  automake1.11-1.11-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
   make-3.81-2
   sed-4.1.5-2
 
@@ -30,76 +30,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xdg-user-dirs-0.10-X-src.tar.bz2
+  unpack xdg-user-dirs-0.11-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xdg-user-dirs-0.10-X.cygport all
+  cygport ./xdg-user-dirs-0.11-X.cygport all
 
 This will create:
-  /usr/src/xdg-user-dirs-0.10-X-src.tar.bz2
-  /usr/src/xdg-user-dirs-0.10-X.tar.bz2
+  /usr/src/xdg-user-dirs-0.11-X-src.tar.bz2
+  /usr/src/xdg-user-dirs-0.11-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /etc/defaults/etc/xdg/user-dirs.conf
-  /etc/defaults/etc/xdg/user-dirs.defaults
-  /etc/postinstall/xdg-user-dirs.sh
-  /etc/preremove/xdg-user-dirs.sh
-  /usr/bin/xdg-user-dir
-  /usr/bin/xdg-user-dirs-update.exe
-  /usr/bin/xdg-user-dirs-update.exe.manifest
-  /usr/share/doc/xdg-user-dirs/AUTHORS
-  /usr/share/doc/xdg-user-dirs/COPYING
-  /usr/share/doc/xdg-user-dirs/ChangeLog
-  /usr/share/doc/xdg-user-dirs/NEWS
-  /usr/share/doc/xdg-user-dirs/README
-  /usr/share/locale/af/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/ar/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/be@latin/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/bg/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/ca/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/cs/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/da/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/de/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/el/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/es/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/et/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/eu/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/fi/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/fr/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/ga/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/hu/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/it/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/ja/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/ko/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/ku/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/lt/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/mk/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/nb/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/nl/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/nn/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/pa/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/pl/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/pt/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/pt_BR/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/ru/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/sk/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/sr/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/sr@Latn/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/sv/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/th/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/tr/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/uk/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/zh_CN/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/zh_HK/LC_MESSAGES/xdg-user-dirs.mo
-  /usr/share/locale/zh_TW/LC_MESSAGES/xdg-user-dirs.mo
-
-------------------
-
 Port Notes:
+
+----- version 0.11-1 -----
+Version bump.
 
 ----- version 0.10-11 -----
 Rebuilt to add UAC .manifest file.

@@ -1,5 +1,5 @@
 category: X11
-requires: libgcc1 libiconv2 libintl8
+requires: libiconv2 libintl8
 sdesc: "XDG user directory tool"
 ldesc: "xdg-user-dirs is a tool to help manage 'well known' user 
 directories like the desktop folder and the music folder. It also 

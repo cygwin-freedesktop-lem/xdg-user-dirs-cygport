@@ -1,0 +1,11 @@
+--- origsrc/xdg-user-dirs-0.14/Makefile.am	2010-09-13 02:14:48.000000000 -0500
++++ src/xdg-user-dirs-0.14/Makefile.am	2013-06-04 21:49:28.775432900 -0500
+@@ -16,7 +16,7 @@ EXTRA_DIST= config.rpath translate.c aut
+ xdgdir=$(sysconfdir)/xdg
+ xdg_DATA=user-dirs.conf user-dirs.defaults
+ 
+-libraries = $(LIBINTL)
++libraries = $(LIBINTL) $(LIBICONV)
+ 
+ bin_PROGRAMS =					\
+ 	xdg-user-dirs-update			\

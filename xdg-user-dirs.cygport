@@ -1,5 +1,5 @@
 NAME="xdg-user-dirs"
-VERSION=0.15
+VERSION=0.16
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="XDG user directory tool"

@@ -11,6 +11,14 @@ SRC_URI="https://user-dirs.freedesktop.org/releases/${NAME}-${VERSION}.tar.gz"
 SRC_URI+=" https://src.fedoraproject.org/rpms/xdg-user-dirs/raw/f22/f/xdg-user-dirs.sh"
 PATCH_URI="0.14-no-undefined.patch"
 
+BUILD_REQUIRES="\
+  gettext-devel\
+  libiconv-devel\
+  libintl-devel\
+  libxslt\
+  docbook-xml43\
+"
+
 src_install() {
 	cd ${B}
 	cyginstall
